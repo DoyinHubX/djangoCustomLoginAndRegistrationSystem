@@ -2,11 +2,11 @@
 
 **An authentication system is a critical component of any modern application**. 
 
-This guide explains how to buildi a Django Login and Registration system using a **custom user model**. Unlike Django’s default authentication system, which requires a **predefined username** for authentication, a custom user model provides greater flexibility. It allows you to extend the base user functionality in various ways, such as using an **email address** as the primary identifier or implementing **custom validation rules** tailored to your application's needs.
+This guide explains how to build a Django Login and Registration system using a **custom user model**. Unlike Django’s default authentication system, which requires a **predefined username** for authentication, a custom user model provides greater flexibility. It allows you to extend the base user functionality in various ways, such as using an **email address** as the primary identifier or implementing **custom validation rules** tailored to your application's needs.
 
 C🔗 **Live Demo**: [Try it here](https://pihealth-pwx6.onrender.com/register/)  
 
-📖 **Read the full article**: [Click here]()  
+📖 **Read the full article**: [Click here](https://dev.to/eslintpurity/how-to-build-a-custom-django-authentication-system-a-comprehensive-guide-33de)  
 
 ## 🛠️ How to Use  
 

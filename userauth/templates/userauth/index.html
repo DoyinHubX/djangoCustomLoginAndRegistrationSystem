@@ -23,7 +23,7 @@
             <a class="navbar-brand" href="#">Auth App</a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-         {% if user.is_authenticated %}
+        {% if user.is_authenticated %}
                         <li class="nav-item">
                             <a class="nav-link" href="{% url 'logout' %}">Logout</a>
                         </li>
@@ -45,7 +45,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'register' %}">Register</a>
                     </li>
-    {% endif %}
+        {% endif %}
                 </ul>
             </div>
         </div>
@@ -53,8 +53,8 @@
 
     <!-- Hero Section with Grey Background -->
    <!-- Hero Section with Increased Height -->
-<section class="bg-custom-grey text-center py-5" style="min-height: 380px; display: flex; align-items: center;">
-    <div class="container" style="margin-top: -70px;">
+<section class="bg-custom-grey text-center py-5" style="min-height: 350px; display: flex; align-items: center;">
+    <div class="container" style="margin-top: -40px;">
     <h2 class="display-4 text-teal">Django Authentication System</h2>
     <p class="lead"><em>A Bespoke user authentication system using Django's built-in authentication tools.</em></p>
     <a href="#" class="btn btn-light btn-lg" style="margin-top: 25px;">Learn More</a>

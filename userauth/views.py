@@ -11,6 +11,7 @@ from django.contrib.auth.views import LoginView
 def index(request):
     return render(request, 'userauth/index.html')
 
+# Registration View
 class RegisterView(SuccessMessageMixin, CreateView):
     template_name = 'userauth/register.html'
     form_class = CustomUserCreationForm
@@ -23,8 +24,12 @@ class RegisterView(SuccessMessageMixin, CreateView):
         login(self.request, user)
         return super().form_valid(form)
 
+# Custom Login View
 class CustomLoginView(LoginView):
     template_name = 'userauth/login.html'
+    redirect_authenticated_user = True  # Redirect logged-in users away from the login page
 
+# Profile View (Requires Authentication)
 class ProfileView(LoginRequiredMixin, TemplateView):
     template_name = 'userauth/profile.html'
+

@@ -6,7 +6,7 @@ This guide explains how to build a Django Login and Registration system using a 
 
 C🔗 **Live Demo**: [Try it here](https://pihealth-pwx6.onrender.com/register/)  
 
-📖 **Read the full article**: [Click here](https://dev.to/eslintpurity/how-to-build-a-custom-django-authentication-system-a-comprehensive-guide-33de)  
+📖 **Read the full article**: [Click here](https://dev.to/doyinelugbadebo/how-to-build-a-custom-django-authentication-system-a-comprehensive-guide-33de)  
 
 ## 🛠️ How to Use  
 
